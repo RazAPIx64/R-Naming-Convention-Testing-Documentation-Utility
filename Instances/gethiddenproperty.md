@@ -12,6 +12,6 @@ Example:
  local b = Instance.new('Folder');
  b.RobloxLocked = true
 
- print(select(1, gethiddenproperty(b, 'Name))) --> Folder, false
+ print(select(1, gethiddenproperty(b, 'Name'))) --> Folder, false
  print(select(1, gethiddenproperty(b, 'RobloxLocked'))) --> true, true
 ```
