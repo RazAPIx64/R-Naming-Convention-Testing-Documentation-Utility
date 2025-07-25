@@ -6,6 +6,7 @@ function identifyexecutor(): (string, string) -- Name, Version
 :warning:`Alias: getexecutorname`
 
 Returns 2 strings representing the executors name and version
+
 Example:
 
 ```lua
