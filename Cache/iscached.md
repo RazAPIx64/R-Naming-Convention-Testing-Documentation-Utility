@@ -1,7 +1,7 @@
 # Library: Cache
 
 ```lua
-  function iscached(Object: Instance)
+function cache.iscached(Object: Instance)
 ```
 Checks if a `Instance`/`Object` is in the Internal Instance Cache
 
