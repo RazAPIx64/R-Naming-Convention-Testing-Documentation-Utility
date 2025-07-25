@@ -3,7 +3,7 @@
 ```lua
 function hookfunction(Function1: (...any?) -> (...any?))
 ```
-Replaces the first function passed with the second one Including the environments
+Replaces the first function passed with the second one including the environments of the functions
 
 Example:
 ```lua
