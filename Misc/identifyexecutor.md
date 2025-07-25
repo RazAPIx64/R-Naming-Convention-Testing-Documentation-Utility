@@ -3,7 +3,7 @@
 ```lua
 function identifyexecutor(): (string, string) -- Name, Version
 ```
-`⚠ Alias: getexecutorname` 
+:warning:`Alias: getexecutorname`
 
 Returns 2 strings representing the executors name and version
 Example:
