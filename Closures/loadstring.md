@@ -4,7 +4,8 @@
 function loadstring(source: string, chunk: string?): (...any?) -> (...any?) | string?
 ```
 Executes luau code (`source`) as bytecode by compiling the source into bytecode and loading it.
-:warning: **WARNING**: You must load the global environment & variables from the environment when making this function.
+
+**WARNING**: You must load the global environment & variables from the environment when making this function.
 
 `chunk` is used as debug information for errors. if nil, return a randomized string or return an empty string
 
