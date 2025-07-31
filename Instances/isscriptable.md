@@ -9,8 +9,8 @@ If true, The `Property` can be modified and indexed normally, if false, The `Pro
 
 Example:
 ```lua
- local a = Instance.new('LuaSourceContainer');
- print(isscriptable(a, 'IsDifferentFromFileSystem')) --> false, Property cannot be indexed and cannot be modified
+ local a = Instance.new('Fire');
+ print(isscriptable(a, 'size_xml')) --> false, Property cannot be indexed and cannot be modified
  print(isscriptable(Instance.new('Frame'), 'Name')) --> true, Property can be indexed and can be modified
 
  local b = Instance.new('LocalScript')
