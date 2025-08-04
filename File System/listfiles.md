@@ -11,6 +11,6 @@ Example:
 ```lua
  writefile('dir.txt', 'ok')
  for i, v in listfiles('') do
-   if v then print('File found: ', v) end
+   if v then print('File found: ', v) end --> File found: dir.txt
  end
 ```
