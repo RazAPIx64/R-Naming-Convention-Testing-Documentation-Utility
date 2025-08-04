@@ -1,7 +1,7 @@
 # Library: File System
 
 ```lua
-function listfiles(path: string): table
+function listfiles(path: string): { string }
 ```
 Lists files ***and folders*** inside of `path`.
 Yes, this should also list folders inside of `path`
