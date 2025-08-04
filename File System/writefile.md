@@ -9,6 +9,7 @@ Example:
 ```lua
  writefile('Hello.txt', 'Hello, World!')
  print(isfile('Hello.txt')) --> true
+ print(readfile('Hello.txt')) --> Hello, World!
 
  local a,b = pcall(function()
      writefile('Hello.py', 'def ok(): #??')   
